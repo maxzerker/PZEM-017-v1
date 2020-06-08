@@ -1,0 +1,25 @@
+{
+    "name": "PZEM-017-v1",
+    "frameworks": "arduino",
+    "keywords": "peacefair, pzem, powermeter, v1",
+    "description": "Enables communication to Peacefair PZEM-017 v1.0 Power and Energy monitor",
+    "url": "https://github.com/maxzerker/PZEM-017-v1",
+    "authors": [
+        {
+            "name": "Maxzerker Maxz"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/maxzerker/PZEM-017-v1"
+    },
+    "platforms": "*",
+    "version": "1.0.0",
+    "dependencies": [
+        {
+            "name": "EspSoftwareSerial",
+            "version": ">=3.2.0",
+            "platforms": "espressif8266"
+        }
+    ]
+}
